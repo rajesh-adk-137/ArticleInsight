@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+beautifulsoup4
+requests
+llmware
