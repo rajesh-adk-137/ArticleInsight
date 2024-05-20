@@ -1,33 +1,32 @@
 
 
 ---
-
 # ArticleInsight: Your AI-Powered Article Analysis Tool
 <p align="center">
-    <p align="center">
-        <a href="https://github.com/rajesh-adk-137/ArticleInsight/" target="blank">
-            <img src="https://img.shields.io/github/watchers/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Watchers"/>
-        </a>
-        <a href="https://github.com/rajesh-adk-137/ArticleInsight/fork" target="blank">
-            <img src="https://img.shields.io/github/forks/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Forks"/>
-        </a>
-        <a href="https://github.com/rajesh-adk-137/ArticleInsight/stargazers" target="blank">
-            <img src="https://img.shields.io/github/stars/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Star"/>
-        </a>
-    </p>
-    <p align="center">
-        <a href="https://github.com/rajesh-adk-137/ArticleInsight/issues" target="blank">
-            <img src="https://img.shields.io/github/issues/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Issue"/>
-        </a>
-        <a href="https://github.com/rajesh-adk-137/ArticleInsight/pulls" target="blank">
-            <img src="https://img.shields.io/github/issues-pr/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
-        </a>
-    </p>
-    <p align="center">
-        <a href="https://github.com/rajesh-adk-137/ArticleInsight/blob/master/LICENSE" target="blank">
-            <img src="https://img.shields.io/github/license/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="License" />
-        </a>
-    </p>
+<p align="center">
+<a href="https://github.com/rajesh-adk-137/ArticleInsight/" target="blank">
+<img src="https://img.shields.io/github/watchers/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Watchers"/>
+</a>
+<a href="https://github.com/rajesh-adk-137/ArticleInsight/fork" target="blank">
+<img src="https://img.shields.io/github/forks/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Forks"/>
+</a>
+<a href="https://github.com/rajesh-adk-137/ArticleInsight/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Star"/>
+</a>
+</p>
+<p align="center">
+<a href="https://github.com/rajesh-adk-137/ArticleInsight/issues" target="blank">
+<img src="https://img.shields.io/github/issues/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Issue"/>
+</a>
+<a href="https://github.com/rajesh-adk-137/ArticleInsight/pulls" target="blank">
+<img src="https://img.shields.io/github/issues-pr/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+</a>
+</p>
+<p align="center">
+<a href="https://github.com/rajesh-adk-137/ArticleInsight/blob/master/LICENSE" target="blank">
+<img src="https://img.shields.io/github/license/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="License" />
+</a>
+</p>
 </p>
 
 ArticleInsight is a powerful web application designed to provide deep insights and comprehensive analysis of articles. Leveraging state-of-the-art AI models from LLMWare, ArticleInsight offers functionalities such as generating summaries, creating tags, categorizing content, performing sentiment analysis on comments, and answering questions about the article. It responds to the urls from dev.to and medium.
