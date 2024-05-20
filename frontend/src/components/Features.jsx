@@ -1,25 +1,30 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const FeaturesSection = () => {
     const [selected, setSelected] = useState(1);
     return (
         <div>
-            <h1 className='text-center text-4xl font-bold tracking-wider'>STUDY WITH <span className='text-blue-400'>COPILOT</span></h1>
+            <h1 className='text-center text-4xl font-bold tracking-wider'>DISCOVER WITH <span className='text-[#4fe331]'>ArticleInsight</span></h1>
             <div className='grid '>
                 <div className="flex flex-col md:flex-row gap-10 mx-10 md:mx-24 mt-14 hover:cursor-pointer ">
                     <div className={selected == 1 ? " border-b-[6px] rounded-2xl border-blue-400 flex justify-center flex-col items-center mx-4 " : "flex justify-center flex-col items-center mx-4 border-b rounded-2xl hover:bg-gray-900 hover:shadow-md hover:shadow-blue-600"} onClick={() => { setSelected(1) }}>
-                        <h1 className='text-xl text-blue-400'>Personalized Study Materials </h1>
-                        <p className='text-lg text-[#aaabc4] my-5 text-center'>Select your desired subjects and generate customized study materials.</p>
+                        <h1 className='text-xl text-blue-400'>Comprehensive Article Summaries</h1>
+                        <p className='text-lg text-[#aaabc4] my-5 text-center'>Generate detailed summaries of your articles, capturing the essential points effectively.</p>
                     </div>
 
                     <div className={selected == 2 ? " border-b-[6px] rounded-2xl border-blue-400 flex justify-center flex-col items-center mx-4" : "flex justify-center flex-col items-center mx-4 border-b rounded-2xl hover:bg-gray-900 hover:shadow-md hover:shadow-blue-600"} onClick={() => { setSelected(2) }}>
-                        <h1 className='text-xl text-blue-400'>Interactive MCQ Practice </h1>
-                        <p className='text-lg text-[#aaabc4] my-5 text-center'>Dive into detailed insights and explanations for your topics and questions!</p>
+                        <h1 className='text-xl text-blue-400'>AI-Generated Tags and Categories</h1>
+                        <p className='text-lg text-[#aaabc4] my-5 text-center'>Discover relevant tags and categories for your articles to enhance searchability and organization.</p>
                     </div>
 
                     <div className={selected == 3 ? " border-b-[6px] rounded-2xl border-blue-400 flex justify-center flex-col items-center mx-4" : "flex justify-center flex-col items-center mx-4 border-b rounded-2xl hover:bg-gray-900 hover:shadow-md hover:shadow-blue-600"} onClick={() => { setSelected(3) }}>
-                        <h1 className='text-xl text-blue-400'>Insights and Explanations</h1>
-                        <p className='text-lg text-[#aaabc4] my-5 text-center'>Uncover detailed insights and explanations on your topics and questions!.</p>
+                        <h1 className='text-xl text-blue-400'>Sentiment and Insights Analysis</h1>
+                        <p className='text-lg text-[#aaabc4] my-5 text-center'>Analyze the sentiment of comments and uncover insights from article responses.</p>
+                    </div>
+
+                    <div className={selected == 4 ? " border-b-[6px] rounded-2xl border-blue-400 flex justify-center flex-col items-center mx-4" : "flex justify-center flex-col items-center mx-4 border-b rounded-2xl hover:bg-gray-900 hover:shadow-md hover:shadow-blue-600"} onClick={() => { setSelected(4) }}>
+                        <h1 className='text-xl text-blue-400'>Ask Questions about Articles</h1>
+                        <p className='text-lg text-[#aaabc4] my-5 text-center'>Get answers to specific questions about the content of your articles.</p>
                     </div>
                 </div>
 
@@ -27,10 +32,11 @@ const FeaturesSection = () => {
                     {selected == 1 && <Feature1 />}
                     {selected == 2 && <Feature2 />}
                     {selected == 3 && <Feature3 />}
+                    {selected == 4 && <Feature4 />}
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 const Feature1 = () => {
@@ -38,25 +44,22 @@ const Feature1 = () => {
         <>
             <div className="bg-black p-8 rounded-lg shadow-blue-400 shadow-lg">
                 <ul className="pl-5 space-y-3 text-white text-lg leading-relaxed my-4 font-sans">
-                    <li className="border-b border-blue-500 pb-2 ">
-                        With <span className="text-blue-400">StudyPal</span>, you have the power to tailor your study experience to your unique needs.
+                    <li className="border-b border-blue-500 pb-2">
+                        With <span className="text-blue-400">ArticleInsight</span>, you can transform lengthy articles into concise, comprehensive summaries.
                     </li>
                     <li className="border-b border-blue-500 pb-2">
-                        Select your desired subjects and educational qualifications, and let <span className="text-blue-400">StudyPal</span> do the rest.
+                        Our platform uses advanced models from <span className="text-blue-400">LLMWare.ai</span> to analyze and distill the core points of your articles.
                     </li>
                     <li className="border-b border-blue-500 pb-2">
-                        Our platform utilizes advanced algorithms to generate customized study materials specifically for you.
+                        Save time and effort by quickly understanding the essential information from any article.
                     </li>
                     <li className="border-b border-blue-500 pb-2">
-                        From concise revision points that condense complex concepts into easily digestible summaries to practice multiple-choice questions (MCQs) that test your understanding.
-                    </li>
-                    <li className="border-b border-blue-500 pb-2">
-                        <span className="text-blue-400">StudyPal</span> ensures that you have the right resources at your fingertips to excel in your studies.
+                        <span className="text-blue-400">ArticleInsight</span> ensures you have access to accurate and relevant summaries, making your research and reading more efficient.
                     </li>
                 </ul>
             </div>
         </>
-    )
+    );
 }
 
 const Feature2 = () => {
@@ -65,19 +68,21 @@ const Feature2 = () => {
             <div className="bg-black p-8 rounded-lg shadow-blue-400 shadow-lg">
                 <ul className="pl-5 space-y-3 text-white text-lg leading-relaxed my-4 font-sans">
                     <li className="border-b border-blue-500 pb-2">
-                        Gone are the days of passive studying. With <span className="text-blue-400">StudyPal's interactive MCQ practice feature</span>, you can actively engage with the material and put your knowledge to the test.
+                        Enhance your articles with AI-generated tags and categories using <span className="text-blue-400">ArticleInsight</span>.
                     </li>
                     <li className="border-b border-blue-500 pb-2">
-                        Our platform offers a wide range of multiple-choice questions tailored to your selected subjects. But that's not all – if you find yourself stuck on a particular question, <span className="text-blue-400">StudyPal has got you covered</span>.
+                        Our platform leverages <span className="text-blue-400">LLMWare.ai</span> models to automatically generate relevant tags and identify key categories.
                     </li>
                     <li className="border-b border-blue-500 pb-2">
-                        Simply seek hints and guidance directly within the platform's chat interface. Our integrated AI assistance provides personalized support to help you work through challenging concepts and improve your understanding.
+                        Improve the searchability and organization of your content effortlessly.
+                    </li>
+                    <li className="border-b border-blue-500 pb-2">
+                        <span className="text-blue-400">ArticleInsight</span> makes it easy to categorize and highlight important themes in your writing.
                     </li>
                 </ul>
             </div>
-
         </>
-    )
+    );
 }
 
 const Feature3 = () => {
@@ -85,15 +90,45 @@ const Feature3 = () => {
         <>
             <div className="bg-black p-8 rounded-lg shadow-blue-400 shadow-lg">
                 <ul className="pl-5 space-y-3 text-white text-lg leading-relaxed my-4 font-sans">
-                    <li className="border-b border-blue-500 pb-2">Understanding the "why" behind the answer is just as important as knowing the answer itself, enhancing deep learning.</li>
-                    <li className="border-b border-blue-500 pb-2">We provide valuable insights and explanations to deepen your understanding of the subject matter.</li>
-                    <li className="border-b border-blue-500 pb-2">Whether you've aced a question or stumbled upon a tricky one, StudyPal offers detailed explanations that illuminate the rationale behind each answer.</li>
-                    <li className="border-b border-blue-500 pb-2">By gaining insight into the reasoning behind the solutions, you'll not only strengthen your grasp of the material but also pave the way for academic success.</li>
+                    <li className="border-b border-blue-500 pb-2">
+                        Understanding the sentiment and insights behind your articles is crucial for deeper analysis.
+                    </li>
+                    <li className="border-b border-blue-500 pb-2">
+                        <span className="text-blue-400">ArticleInsight</span> uses <span className="text-blue-400">LLMWare.ai</span> models to analyze the sentiment of comments and uncover underlying themes.
+                    </li>
+                    <li className="border-b border-blue-500 pb-2">
+                        Whether you need to gauge the overall tone or extract meaningful insights from responses, <span className="text-blue-400">ArticleInsight</span> has you covered.
+                    </li>
+                    <li className="border-b border-blue-500 pb-2">
+                        Gain a comprehensive understanding of your content's impact and the key messages from readers.
+                    </li>
                 </ul>
             </div>
-
         </>
-    )
+    );
 }
 
-export default FeaturesSection
+const Feature4 = () => {
+    return (
+        <>
+            <div className="bg-black p-8 rounded-lg shadow-blue-400 shadow-lg">
+                <ul className="pl-5 space-y-3 text-white text-lg leading-relaxed my-4 font-sans">
+                    <li className="border-b border-blue-500 pb-2">
+                        With <span className="text-blue-400">ArticleInsight</span>, you can interact with your articles on a deeper level by asking specific questions about the content.
+                    </li>
+                    <li className="border-b border-blue-500 pb-2">
+                        Our platform leverages advanced AI from <span className="text-blue-400">LLMWare.ai</span> to provide precise and informative answers to your queries.
+                    </li>
+                    <li className="border-b border-blue-500 pb-2">
+                        Enhance your understanding and engagement by exploring detailed answers and explanations related to your articles.
+                    </li>
+                    <li className="border-b border-blue-500 pb-2">
+                        <span className="text-blue-400">ArticleInsight</span> empowers you to delve into your content with greater depth and clarity.
+                    </li>
+                </ul>
+            </div>
+        </>
+    );
+}
+
+export default FeaturesSection;

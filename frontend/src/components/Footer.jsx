@@ -12,7 +12,7 @@ const Footer = ({ darkMode = true }) => {
           {/* <Link to="/"> */}
           <div className="text-2xl md:text-4xl font-bold">Article<span className='text-[#4fe331]'>Insight</span></div>
           {/* </Link> */}
-          <div className="text-xl text-gray-600">Your Personalized Learning Companion.</div>
+          <div className="text-xl text-gray-600">Your Ultimate Article Analysis Tool.</div>
           <div className="mt-3 flex text-xl gap-2 text-gray-500 ">
             <FaFacebook className="hover:text-white" />
             <FaInstagram className="hover:text-white" />
@@ -31,7 +31,7 @@ const Footer = ({ darkMode = true }) => {
           <div className="flex flex-col gap-3">
 
             <a href="https://quine.sh/"><div className="hover:text-white hover:cursor-pointer">Quine</div></a>
-            <a href="https://www.copilotkit.ai/"><div className="hover:text-white hover:cursor-pointer">CopilotKit</div></a>
+            <a href="https://llmware.ai/"><div className="hover:text-white hover:cursor-pointer">LLMware</div></a>
           </div>
         </div>
       </div>
