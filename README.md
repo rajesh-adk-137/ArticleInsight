@@ -1,30 +1,31 @@
 
+
 ---
 
 # ArticleInsight: Your AI-Powered Article Analysis Tool
 <p align="center">
     <p align="center">
-        <a href="https://github.com/yourusername/ArticleInsight/" target="blank">
-            <img src="https://img.shields.io/github/watchers/yourusername/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Watchers"/>
+        <a href="https://github.com/rajesh-adk-137/ArticleInsight/" target="blank">
+            <img src="https://img.shields.io/github/watchers/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Watchers"/>
         </a>
-        <a href="https://github.com/yourusername/ArticleInsight/fork" target="blank">
-            <img src="https://img.shields.io/github/forks/yourusername/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Forks"/>
+        <a href="https://github.com/rajesh-adk-137/ArticleInsight/fork" target="blank">
+            <img src="https://img.shields.io/github/forks/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Forks"/>
         </a>
-        <a href="https://github.com/yourusername/ArticleInsight/stargazers" target="blank">
-            <img src="https://img.shields.io/github/stars/yourusername/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Star"/>
-        </a>
-    </p>
-    <p align="center">
-        <a href="https://github.com/yourusername/ArticleInsight/issues" target="blank">
-            <img src="https://img.shields.io/github/issues/yourusername/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Issue"/>
-        </a>
-        <a href="https://github.com/yourusername/ArticleInsight/pulls" target="blank">
-            <img src="https://img.shields.io/github/issues-pr/yourusername/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+        <a href="https://github.com/rajesh-adk-137/ArticleInsight/stargazers" target="blank">
+            <img src="https://img.shields.io/github/stars/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Star"/>
         </a>
     </p>
     <p align="center">
-        <a href="https://github.com/yourusername/ArticleInsight/blob/master/LICENSE" target="blank">
-            <img src="https://img.shields.io/github/license/yourusername/ArticleInsight?style=for-the-badge&logo=appveyor" alt="License" />
+        <a href="https://github.com/rajesh-adk-137/ArticleInsight/issues" target="blank">
+            <img src="https://img.shields.io/github/issues/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Issue"/>
+        </a>
+        <a href="https://github.com/rajesh-adk-137/ArticleInsight/pulls" target="blank">
+            <img src="https://img.shields.io/github/issues-pr/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/rajesh-adk-137/ArticleInsight/blob/master/LICENSE" target="blank">
+            <img src="https://img.shields.io/github/license/rajesh-adk-137/ArticleInsight?style=for-the-badge&logo=appveyor" alt="License" />
         </a>
     </p>
 </p>
@@ -40,7 +41,7 @@ ArticleInsight is a powerful web application designed to provide deep insights a
 - **Question Answering**: Get precise answers to questions related to the article content.
 
 ## Demo
-<video src="https://github.com/yourusername/ArticleInsight/assets/your-video-id"></video>
+<video src="https://github.com/rajesh-adk-137/ArticleInsight/assets/demo-video-placeholder"></video>
 
 ## Dependencies
 - React
@@ -55,7 +56,7 @@ ArticleInsight is a powerful web application designed to provide deep insights a
 
 #### Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ArticleInsight.git
+git clone https://github.com/rajesh-adk-137/ArticleInsight.git
 ```
 #### Go to the repository:
 ```bash
@@ -114,10 +115,10 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ## Screenshots
 
-![Landing](https://github.com/yourusername/ArticleInsight/assets/your-image-id-1)
-![Dashboard](https://github.com/yourusername/ArticleInsight/assets/your-image-id-2)
-![Features](https://github.com/yourusername/ArticleInsight/assets/your-image-id-3)
-![Sentiment Analysis](https://github.com/yourusername/ArticleInsight/assets/your-image-id-4)
+![Landing](https://github.com/rajesh-adk-137/ArticleInsight/assets/screenshot-placeholder-1)
+![Dashboard](https://github.com/rajesh-adk-137/ArticleInsight/assets/screenshot-placeholder-2)
+![Features](https://github.com/rajesh-adk-137/ArticleInsight/assets/screenshot-placeholder-3)
+![Sentiment Analysis](https://github.com/rajesh-adk-137/ArticleInsight/assets/screenshot-placeholder-4)
 
 ## Contributing
 
@@ -162,3 +163,5 @@ This project is licensed under the [MIT License](LICENSE).
 - [Python](https://www.python.org/) for the versatile programming language
 
 ---
+
+
