@@ -24,7 +24,7 @@ const HeroSection = () => {
                             </button>
                         </Link>
                         {/* </Link> */}
-                        <a href="https://quine.sh/quests/creator/">
+                        <a href="https://quine.sh/repo/rajesh-adk-137-ArticleInsight-802838180?utm_source=copy&utm_share_context=rdp/">
                             <button className='bg-[#4fe331] text-black font-bold px-5 py-3 rounded-lg flex items-center justify-center space-x-2 transition duration-300 ease-in-out hover:bg-[#3fb427] hover:shadow-lg'>
                                 <span>VOTE ON QUINE</span>
                                 <MdKeyboardDoubleArrowRight className="text-xl" />
