@@ -114,11 +114,17 @@ Open your browser and navigate to `http://localhost:5173`.
 `http://localhost:8000`.
 
 ## Screenshots
+Landing Page:
+![Landing](https://github.com/rajesh-adk-137/ArticleInsight/assets/89499267/28c917da-6f80-4bba-b287-ef8440fc6fdb)
+Home Page:
+![Home](https://github.com/rajesh-adk-137/ArticleInsight/assets/89499267/d0d1cfbf-4402-405c-9849-4244f571d264)
+ArticleInsight-1:
+![ArticleInsight-1](https://github.com/rajesh-adk-137/ArticleInsight/assets/89499267/9121a262-0900-4b22-9dbb-06603c157a9d)
+ArticleInsight-2:
+![ArticleInsight-2](https://github.com/rajesh-adk-137/ArticleInsight/assets/89499267/ac450183-c3ed-44b5-a28a-e5f90912336b)
+About Section:
+![About](https://github.com/rajesh-adk-137/ArticleInsight/assets/89499267/1790c9e0-b10d-4f67-9f48-cb9518f3e315)
 
-![Landing](https://github.com/rajesh-adk-137/ArticleInsight/assets/screenshot-placeholder-1)
-![Dashboard](https://github.com/rajesh-adk-137/ArticleInsight/assets/screenshot-placeholder-2)
-![Features](https://github.com/rajesh-adk-137/ArticleInsight/assets/screenshot-placeholder-3)
-![Sentiment Analysis](https://github.com/rajesh-adk-137/ArticleInsight/assets/screenshot-placeholder-4)
 
 ## Contributing
 

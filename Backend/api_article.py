@@ -90,9 +90,12 @@ def scrape_medium_article(url):
         likes_section = soup.find('button', class_='likeButton')
         
         comments = ''
-        for comment in comments_section:
-            comments += comment.get_text() + '\n\n'
-        
+        if comments_section is None or not comments_section:
+            comments = ''
+        else:
+            for comment in comments_section:
+                comments += comment.get_text() + '\n\n'
+            
         likes = likes_section.get_text() if likes_section else 'No likes information found'
         
         lines = content.splitlines()
@@ -121,11 +124,12 @@ def scrape_medium_article(url):
     else:
         return None, f'Error: Unable to fetch the article. Status code: {response.status_code}', '', ''
 
-# LLMware related functions remain unchanged
+# LLMware Models
 def get_summary(text):
     if text is not None:
-        slim_model = ModelCatalog().load_model("slim-summary-tool")
-        response = slim_model.function_call(text, params="[key points (3)]", function="summarize")
+        slim_model = ModelCatalog().load_model("slim-summary-tool") #"llmware/slim-summary"
+        response = slim_model.function_call(text, params=["key points (3)"], function="summarize")
+        print(text)
         print(response["llm_response"])
         return response["llm_response"]
     else:
@@ -141,12 +145,14 @@ def get_tags(text):
         return "Invalid text"
 
 def get_sentiment(comments):
-    if comments is not None:
+    if comments != '':
         slim_model = ModelCatalog().load_model("slim-sentiment-tool")
         response = slim_model.function_call(comments, params=["sentiment"], function="classify")
+        print("comments: ", comments)
         print(response["llm_response"])
         return response["llm_response"]
     else:
+        print("no comments")
         return "Invalid text"
 
 def get_topic(text):
