@@ -127,10 +127,9 @@ def scrape_medium_article(url):
 # LLMware Models
 def get_summary(text):
     if text is not None:
-        slim_model = ModelCatalog().load_model("slim-summary-tool") #"llmware/slim-summary"
+        slim_model = ModelCatalog().load_model("slim-summary-tool") 
+        #"llmware/slim-summary" <-use this model for better answers, but it is slow.
         response = slim_model.function_call(text, params=["key points (3)"], function="summarize")
-        print(text)
-        print(response["llm_response"])
         return response["llm_response"]
     else:
         return "Invalid text"
@@ -139,7 +138,6 @@ def get_tags(text):
     if text is not None:
         slim_model = ModelCatalog().load_model("slim-tags-tool")
         response = slim_model.function_call(text, params=["tags"], function="classify")
-        print(response["llm_response"])
         return response["llm_response"]
     else:
         return "Invalid text"
@@ -148,18 +146,14 @@ def get_sentiment(comments):
     if comments != '':
         slim_model = ModelCatalog().load_model("slim-sentiment-tool")
         response = slim_model.function_call(comments, params=["sentiment"], function="classify")
-        print("comments: ", comments)
-        print(response["llm_response"])
         return response["llm_response"]
     else:
-        print("no comments")
         return "Invalid text"
 
 def get_topic(text):
     if text is not None:
         slim_model = ModelCatalog().load_model("slim-topics-tool")
         response = slim_model.function_call(text, params=["topics"], function="classify")
-        print(response["llm_response"])
         return response["llm_response"]
     else:
         return "Invalid text"
@@ -169,7 +163,6 @@ def get_answer(text, question):
         questions = '"' + question + " (explain)" + '"' 
         slim_model = ModelCatalog().load_model("slim-boolean-tool")
         response = slim_model.function_call(text, params=[questions], function="boolean")
-        print(response["llm_response"])
         return response["llm_response"]
     else:
         return "Invalid text"
