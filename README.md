@@ -32,10 +32,9 @@
 ArticleInsight is a powerful web application designed to provide deep insights and comprehensive analysis of articles. Leveraging state-of-the-art AI models from LLMWare, ArticleInsight offers functionalities such as generating summaries, creating tags, categorizing content, performing sentiment analysis on comments, and answering questions about the article. It responds to the urls from dev.to and medium.
 
 ## Features
-
+- **Content Categorization**: Classify articles into appropriate categories.
 - **Article Summarization**: Generate concise and comprehensive summaries of articles.
 - **Tag Generation**: Automatically generate relevant tags to enhance article discoverability.
-- **Content Categorization**: Classify articles into appropriate categories.
 - **Sentiment Analysis**: Analyze comments to determine the overall sentiment.
 - **Question Answering**: Get precise answers to questions related to the article content.
 
@@ -45,6 +44,7 @@ ArticleInsight is a powerful web application designed to provide deep insights a
 
 ## Dependencies
 - React
+- Uvicorn
 - Yarn
 - FastAPI
 - Python
