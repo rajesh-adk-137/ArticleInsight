@@ -1,5 +1,4 @@
 
-
 ---
 # ArticleInsight: Your AI-Powered Article Analysis Tool
 <p align="center">
@@ -29,18 +28,67 @@
 </p>
 </p>
 
-ArticleInsight is a powerful web application designed to provide deep insights and comprehensive analysis of articles. Leveraging state-of-the-art AI models from LLMWare, ArticleInsight offers functionalities such as generating summaries, creating tags, categorizing content, performing sentiment analysis on comments, and answering questions about the article. It responds to the urls from dev.to and medium.
+## Table of Contents
 
-## Features
-- **Content Categorization**: Classify articles into appropriate categories.
-- **Article Summarization**: Generate concise and comprehensive summaries of articles.
-- **Tag Generation**: Automatically generate relevant tags to enhance article discoverability.
-- **Sentiment Analysis**: Analyze comments to determine the overall sentiment.
-- **Question Answering**: Get precise answers to questions related to the article content.
+- [Overview](#overview)
+- [Key Features](#key-features)
+  - [Content Categorization](#content-categorization)
+  - [Article Summarization](#article-summarization)
+  - [Tag Generation](#tag-generation)
+  - [Sentiment Analysis](#sentiment-analysis)
+  - [Question Answering](#question-answering)
+- [Supported Platforms](#supported-platforms)
+- [Getting Started](#getting-started)
+- [Demo](#demo)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+  - [Clone the Repository](#clone-the-repository)
+  - [Frontend Setup](#frontend-setup)
+  - [Backend Setup](#backend-setup)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+ArticleInsight is a cutting-edge web application that harnesses the power of advanced AI models from LLMWare to provide comprehensive insights and in-depth analysis of articles. Designed to streamline the process of understanding and extracting value from written content, ArticleInsight offers a suite of powerful features that cater to a wide range of users, including researchers, journalists, content creators, and avid readers.
+
+In today's information-rich landscape, sifting through vast amounts of data and extracting meaningful insights can be a daunting task. ArticleInsight aims to alleviate this challenge by leveraging state-of-the-art natural language processing (NLP) models from LLMware to deliver accurate and insightful analyses of articles from popular platforms such as Dev.to and Medium.
+
+## Key Features
+
+### Content Categorization
+
+ArticleInsight's intelligent categorization system employs advanced algorithms to classify articles into relevant category which appears as title in the response, ensuring that users can quickly identify and access content that aligns with their interests. This feature streamlines content discovery and enables users to explore specific domains more efficiently.
+
+### Article Summarization
+
+Recognizing the need for concise and digestible information, ArticleInsight offers a powerful summarization feature. By leveraging cutting-edge language models, the application generates comprehensive yet succinct summaries of articles, allowing users to quickly grasp the main ideas and key points without having to read through lengthy content.
+
+### Tag Generation
+
+Effective tagging is crucial for enhancing discoverability and organizing content. ArticleInsight's tag generation feature uses advanced NLP techniques to automatically generate relevant tags for articles, ensuring that users can easily find and navigate related content based on their interests.
+
+### Sentiment Analysis
+
+Understanding the sentiment behind comments and feedback is essential for gauging public opinion and sentiment towards a particular topic or article. ArticleInsight's sentiment analysis feature leverages advanced machine learning models to analyze comments and determine the overall sentiment, providing users with valuable insights into how their content is being received.
+
+### Question Answering
+
+ArticleInsight's question answering feature empowers users to obtain precise and contextual answers to their questions about an article's content. By leveraging deep learning models trained on vast knowledge bases, the application can provide accurate and relevant responses, enhancing the user's understanding of the subject matter.
+
+## Supported Platforms
+
+Initially, ArticleInsight supports articles from two popular platforms: Dev.to and Medium. Users can simply provide the URL of an article from either of these platforms, and ArticleInsight will process the content, generating insightful analyses and summaries.
+
+## Getting Started
+
+ArticleInsight offers a user-friendly interface that allows users to easily input article URLs and access the various features provided by the application. With its powerful AI-driven capabilities, ArticleInsight aims to revolutionize the way users consume and engage with written content, empowering them to make informed decisions and gain deeper insights effortlessly.
 
 ## Demo
-<video src="https://github.com/rajesh-adk-137/ArticleInsight/assets/89499267/0b966113-b33c-455d-bc73-ead668c8fc96
-"></video>
+<video src="https://github.com/rajesh-adk-137/ArticleInsight/assets/89499267/0b966113-b33c-455d-bc73-ead668c8fc96"></video>
 
 ## Dependencies
 - React
@@ -50,24 +98,18 @@ ArticleInsight is a powerful web application designed to provide deep insights a
 - Python
 - LLMWare models
 
-## Getting Started
+## Installation
 
-### Installation
-
-#### Clone the repository:
+### Clone the Repository
 ```bash
 git clone https://github.com/rajesh-adk-137/ArticleInsight.git
-```
-#### Go to the repository:
-```bash
-cd ArticleInsight
 ```
 
 ### Frontend Setup
 
 #### Navigate to the frontend directory:
 ```bash
-cd frontend
+cd ArticleInsight/frontend
 ```
 
 #### Install dependencies:
@@ -112,6 +154,7 @@ Open your browser and navigate to `http://localhost:5173`.
 
 #### Make sure the backend is running at:
 `http://localhost:8000`.
+
 
 ## Screenshots
 Landing Page:
