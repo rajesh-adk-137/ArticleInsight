@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Generalized scraping function
+# Generalized scraping functions
 def scrape_article(url):
     parsed_url = urlparse(url)
     domain = parsed_url.netloc
